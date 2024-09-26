@@ -1,4 +1,5 @@
 ﻿
+using MagicVilla_API;
 using MagicVilla_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -9,6 +10,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>{
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
     
 });
+
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 // Add services to the container.
 //Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
 //    .WriteTo.File("log/VillaLogs.txt", rollingInterval:RollingInterval.Day)

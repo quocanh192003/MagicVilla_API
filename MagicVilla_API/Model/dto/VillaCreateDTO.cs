@@ -7,7 +7,6 @@ namespace MagicVilla_API.Model.dto
     {
         [Required]
         [MaxLength(30)]
-        
         public string Name { get; set; }
         public string Details { get; set; }
         [Required]
