@@ -1,6 +1,8 @@
 ﻿
 using MagicVilla_API;
 using MagicVilla_API.Data;
+using MagicVilla_API.Repository;
+using MagicVilla_API.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 //using Serilog;
@@ -10,7 +12,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>{
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
     
 });
-
+builder.Services.AddScoped<IVillaRepository,VillaRepository>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 // Add services to the container.
 //Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
