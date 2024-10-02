@@ -5,8 +5,10 @@ namespace MagicVilla_API.Model.dto
 {
     public class VillaNumberDTO
     {
-
-        public int VillaNo { get; set; }    
+        required
+        public int VillaNo { get; set; }   
+        required
+         public int villaID {get; set;}
         public string SpecialDetail { get; set; }  
 
     }

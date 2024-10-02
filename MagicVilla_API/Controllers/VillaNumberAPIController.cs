@@ -19,12 +19,14 @@ namespace MagicVilla_API.Controllers
     {
         protected APIReponse _reponse;
         private readonly IVillaNumberRepository _dbVillaNumber;
+        private readonly IVillaRepository _dbvilla;
         private readonly IMapper _mapper;
 
-        public VillaNumberAPIController(IVillaNumberRepository dbVillaNumber, IMapper mapper){
+        public VillaNumberAPIController(IVillaNumberRepository dbVillaNumber,IVillaRepository villa, IMapper mapper){
             this._reponse = new();
             this._dbVillaNumber = dbVillaNumber;
             this._mapper = mapper;
+            this._dbvilla = villa;
         }
 
         [HttpGet]
@@ -81,6 +83,10 @@ namespace MagicVilla_API.Controllers
                 if(villaNumber == null){
                     _reponse.Status = HttpStatusCode.BadRequest;
                     return BadRequest(_reponse);
+                }
+                if(await _dbvilla.getAsync(n => n.Id == villaNumber.villaID) ==null){
+                    ModelState.AddModelError("CustomError", "Villa Id Invalid");
+                    return BadRequest(ModelState);
                 }
                 if(await _dbVillaNumber.getAsync(n => n.VillaNo == villaNumber.villaNo) != null){
                     ModelState.AddModelError("CustomError", "Villa Number already Exists");
@@ -140,7 +146,10 @@ namespace MagicVilla_API.Controllers
                 if(id == 0){
                     return BadRequest();
                 }
-               
+                if(await _dbVillaNumber.getAsync(n => n.VillaNo == villaUpdateNumber.villaNo) != null){
+                    ModelState.AddModelError("CustomError", "Villa Number already Exists");
+                    return BadRequest(ModelState);
+                }
                 if(villaUpdateNumber == null || id != villaUpdateNumber.villaNo){
                     return BadRequest();
                 }
