@@ -3,6 +3,7 @@ using MagicVilla_API;
 using MagicVilla_API.Data;
 using MagicVilla_API.Repository;
 using MagicVilla_API.Repository.IRepository;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 //using Serilog;
@@ -13,7 +14,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>{
     
 });
 builder.Services.AddScoped<IVillaRepository,VillaRepository>();
+builder.Services.AddScoped<IVillaNumberRepository,VillaNumberRepository>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
+
 // Add services to the container.
 //Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
 //    .WriteTo.File("log/VillaLogs.txt", rollingInterval:RollingInterval.Day)
@@ -37,7 +40,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+// app.UseEndpoints(endpoint =>{
+//     endpoint.MapControllerRoute(
+//         name: default,
+//         pattern: {controller = VillaAPI}/{Action = }
+//     )
+// })
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

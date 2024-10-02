@@ -23,7 +23,5 @@ namespace MagicVilla_API.Model.dto
         public string ImageUrl { get; set; }
         [Required]
         public string Amenity { get; set; }
-        public DateTime CreateDate { get; set; }
-        public DateTime UpdateDate { get; set; }
     }
 }

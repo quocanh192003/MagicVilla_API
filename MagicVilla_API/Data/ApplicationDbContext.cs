@@ -7,25 +7,25 @@ namespace MagicVilla_API.Data
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext() { }
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
         public DbSet<Villa> Villas { get; set; }
-
+        public DbSet<VillaNumber> VillaNumbers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
             modelBuilder.Entity<Villa>().HasData(
                 new Villa()
                 {
-                   Id = 1,
-                   Name = "Villa 1",
-                   Details = "Villa 1 Details",
-                   Rate = 100,
-                   Sqft = 1000,
-                   Occupancy = 4,
-                   ImageUrl = "https://www.google.com",
-                   Amenity = "Villa 1 Amenity"
-                   
+                    Id = 1,
+                    Name = "Villa 1",
+                    Details = "Villa 1 Details",
+                    Rate = 100,
+                    Sqft = 1000,
+                    Occupancy = 4,
+                    ImageUrl = "https://www.google.com",
+                    Amenity = "Villa 1 Amenity"
+
                 },
                 new Villa()
                 {
@@ -62,7 +62,33 @@ namespace MagicVilla_API.Data
                 }
 
                 );
+            modelBuilder.Entity<VillaNumber>().HasData(
+                new VillaNumber
+                {
+                    VillaNo = 101,
+                    SpecialDetail = "SpecialDetail_102"
+                },
+                new VillaNumber
+                {
+                    VillaNo = 102,
+                    SpecialDetail = "SpecialDetail_102"
+                },
+                new VillaNumber
+                {
+                    VillaNo = 103,
+                    SpecialDetail = "SpecialDetail_103"
+                },
+                new VillaNumber
+                {
+                    VillaNo = 104,
+                    SpecialDetail = "SpecialDetail_104"
+                }
+                );
+
+
         }
-        
     }
+
+
+
 }

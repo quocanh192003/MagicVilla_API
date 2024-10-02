@@ -15,7 +15,6 @@ namespace MagicVilla_API.Model.dto
         public int Occupancy { get; set; }
         public string ImageUrl { get; set; }
         public string Amenity { get; set; }
-        public DateTime CreateDate { get; set; }
-        public DateTime UpdateDate { get; set; }
+
     }
 }
