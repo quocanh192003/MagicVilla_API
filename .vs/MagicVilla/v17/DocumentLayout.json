@@ -3,39 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\migrations\\20241002164412_addforeignkeytovillatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\migrations\\20241002164412_addforeignkeytovillatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\model\\villanumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\model\\villanumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\magicvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\magicvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\controllers\\villaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\controllers\\villaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\controllers\\villanumberapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\controllers\\villanumberapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67232632-251D-4AAE-9E5D-B8053A499A84}|MagicVilla_Utility\\MagicVilla_Utility.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67232632-251D-4AAE-9E5D-B8053A499A84}|MagicVilla_Utility\\MagicVilla_Utility.csproj|solutionrelative:magicvilla_utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,119 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241002164412_AddForeignKeyToVillaTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Migrations\\20241002164412_AddForeignKeyToVillaTable.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Migrations\\20241002164412_AddForeignKeyToVillaTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Migrations\\20241002164412_AddForeignKeyToVillaTable.cs",
-              "RelativeToolTip": "MagicVilla_API\\Migrations\\20241002164412_AddForeignKeyToVillaTable.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAA7wAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Utility\\SD.cs",
+              "RelativeDocumentMoniker": "MagicVilla_Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Utility\\SD.cs",
+              "RelativeToolTip": "MagicVilla_Utility\\SD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:44:13.155Z",
+              "WhenOpened": "2024-10-11T09:22:31.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Program.cs",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Program.cs",
+              "RelativeToolTip": "MagicVilla_Web\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:19:53.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAJEUAAAAAAAAAAAnwJUUAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-02T16:43:36.677Z",
+              "Title": "APIRequest.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Models\\APIRequest.cs",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Models\\APIRequest.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Models\\APIRequest.cs",
+              "RelativeToolTip": "MagicVilla_Web\\Models\\APIRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:10:49.662Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VillaNumber.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\VillaNumber.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Model\\VillaNumber.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\VillaNumber.cs",
-              "RelativeToolTip": "MagicVilla_API\\Model\\VillaNumber.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvw0AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:37:59.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MagicVilla_API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T12:30:17.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\appsettings.json",
-              "RelativeDocumentMoniker": "MagicVilla_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\appsettings.json",
-              "RelativeToolTip": "MagicVilla_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T12:30:02.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MagicVilla_API.http",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\MagicVilla_API.http",
-              "RelativeDocumentMoniker": "MagicVilla_API\\MagicVilla_API.http",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\MagicVilla_API.http",
-              "RelativeToolTip": "MagicVilla_API\\MagicVilla_API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-02T12:29:55.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Program.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Program.cs",
-              "RelativeToolTip": "MagicVilla_API\\Program.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAIA3wDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:22:11.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VillaNumberAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Controllers\\VillaNumberAPIController.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Controllers\\VillaNumberAPIController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Controllers\\VillaNumberAPIController.cs",
-              "RelativeToolTip": "MagicVilla_API\\Controllers\\VillaNumberAPIController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAmwCoAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:32:38.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VillaAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Controllers\\VillaAPIController.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Controllers\\VillaAPIController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Controllers\\VillaAPIController.cs",
-              "RelativeToolTip": "MagicVilla_API\\Controllers\\VillaAPIController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:32:03.023Z"
             }
           ]
         }
