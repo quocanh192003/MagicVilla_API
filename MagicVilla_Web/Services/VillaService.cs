@@ -1,5 +1,5 @@
 ﻿using MagicVilla_Utility;
-using MagicVilla_Web.Model.dto;
+using MagicVilla_Web.Models.dto;
 using MagicVilla_Web.Models;
 using MagicVilla_Web.Services.IServices;
 
@@ -9,9 +9,12 @@ namespace MagicVilla_Web.Services
     {
         private readonly IHttpClientFactory _clientFactory;
         private string villaUrl;
-        public VillaService (IHttpClientFactory clientFactory, IConfiguration configuration) : base(clientFactory){
+        public VillaService(IHttpClientFactory clientFactory, IConfiguration configuration) : base(clientFactory){
             _clientFactory = clientFactory;
             villaUrl = configuration.GetValue<string>("ServiceUrls:VillaAPI");
+            // Debugging: Kiểm tra giá trị
+            Console.WriteLine($"Client Factory: {_clientFactory != null}");
+            Console.WriteLine($"Villa URL: {villaUrl}");
         }
         public Task<T> CreateAsync<T>(villaCreateDTO dto)
         {

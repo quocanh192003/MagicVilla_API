@@ -29,3 +29,9 @@ C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj
 C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj\Debug\net8.0\MagicVilla_Web.pdb
 C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj\Debug\net8.0\MagicVilla_Web.genruntimeconfig.cache
 C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj\Debug\net8.0\ref\MagicVilla_Web.dll
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\bin\Debug\net8.0\MagicVilla_Utility.dll
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\bin\Debug\net8.0\MagicVilla_Utility.pdb
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj\Debug\net8.0\MagicVilla_Web.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\KHÓA HỌC ASP.NET CORE API\MagicVilla\MagicVilla_Web\obj\Debug\net8.0\MagicVil.F5E7C950.Up2Date
