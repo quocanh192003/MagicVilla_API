@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\model\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\model\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\views\\villa\\indexvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\views\\villa\\indexvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\Villa.cs",
+              "RelativeDocumentMoniker": "MagicVilla_API\\Model\\Villa.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\Villa.cs",
+              "RelativeToolTip": "MagicVilla_API\\Model\\Villa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:17:57.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Controllers\\VillaController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "MagicVilla_Web\\Controllers\\VillaController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAA3wEcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:50:18.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IndexVilla.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
               "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
               "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
               "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxsAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T15:44:00.192Z",
+              "WhenOpened": "2024-11-05T14:49:32.685Z",
               "EditorCaption": ""
             }
           ]
