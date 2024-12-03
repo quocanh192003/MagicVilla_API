@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_api\\model\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D890E05-76E5-4B86-9D28-C9A754BD2A7D}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\model\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\views\\villa\\deletevilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\views\\villa\\deletevilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\views\\villa\\updatevilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\views\\villa\\updatevilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\views\\villa\\indexvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\views\\villa\\indexvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\user\\desktop\\kh\u00F3a h\u1ECDc asp.net core api\\magicvilla\\magicvilla_web\\views\\villa\\createvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67D1BC1C-C50A-4111-80FE-5FA1C33D437A}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\views\\villa\\createvilla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +30,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Villa.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\Villa.cs",
-              "RelativeDocumentMoniker": "MagicVilla_API\\Model\\Villa.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_API\\Model\\Villa.cs",
-              "RelativeToolTip": "MagicVilla_API\\Model\\Villa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T15:17:57.935Z",
+              "Title": "DeleteVilla.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\DeleteVilla.cshtml",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\DeleteVilla.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\DeleteVilla.cshtml",
+              "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\DeleteVilla.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAAAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T09:48:34.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateVilla.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\CreateVilla.cshtml",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\CreateVilla.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\CreateVilla.cshtml",
+              "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\CreateVilla.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwEkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T09:07:12.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateVilla.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\UpdateVilla.cshtml",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\UpdateVilla.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\UpdateVilla.cshtml",
+              "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\UpdateVilla.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T08:49:35.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexVilla.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
+              "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
+              "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T08:47:29.414Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +96,9 @@
               "RelativeDocumentMoniker": "MagicVilla_Web\\Controllers\\VillaController.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Controllers\\VillaController.cs",
               "RelativeToolTip": "MagicVilla_Web\\Controllers\\VillaController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAA3wEcAAAA+AAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAA5wF8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:50:18.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IndexVilla.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
-              "RelativeDocumentMoniker": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\KH\u00D3A H\u1ECCC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
-              "RelativeToolTip": "MagicVilla_Web\\Views\\Villa\\IndexVilla.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvxsAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T14:49:32.685Z",
+              "WhenOpened": "2024-12-03T08:46:20.736Z",
               "EditorCaption": ""
             }
           ]
