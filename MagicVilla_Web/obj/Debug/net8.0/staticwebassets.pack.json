@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\MagicVilla_Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\villa_slide.jpg",
+      "PackagePath": "staticwebassets\\images\\villa_slide.jpg"
     },
     {
       "Id": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\js\\site.js",
