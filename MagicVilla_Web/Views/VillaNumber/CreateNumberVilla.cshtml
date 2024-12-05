@@ -1,6 +1,6 @@
-﻿@* @model MagicVilla_Web.Models.dto.VillaNumberCreateDTO
+﻿@model MagicVilla_Web.Models.VM.VillaNumberCreateVM
 
-<form asp-action="CreateVillaNumber">
+<form asp-action="CreateNumberVilla">
     <br />
     <div class="container border p-3">
         <h1 class="text-primary">Create Villa</h1>
@@ -10,32 +10,32 @@
             <div asp-validation-summary="All" class="text-danger"></div>
 
             <div class="col-2">
-                <label asp-for="villaNo" class="control-label pt-2" style="font-size:20px;"></label>
+                <label asp-for="VillaNumber.villaNo" class="control-label pt-2" style="font-size:20px;"></label>
             </div>
             <div class="col-10 pb-3">
-                <input asp-for="villaNo" class="form-control" />
-                <span asp-validation-for="villaNo" class="text-danger"></span>
+                <input asp-for="VillaNumber.villaNo" class="form-control" />
+                <span asp-validation-for="VillaNumber.villaNo" class="text-danger"></span>
             </div>
 
             <div class="col-2">
-                <label asp-for="villaID" class="control-label pt-2" style="font-size:20px;"></label>
+                <label asp-for="VillaNumber.villaNo" class="control-label pt-2" style="font-size:20px;"></label>
             </div>
             <div class="col-10 pb-3">
-                <select asp-for="villaID" class="form-select" asp-items="@Model">
+                <select asp-for="VillaNumber.villaID" class="form-select" asp-items="@Model.VillaList">
                     <option disabled selected>--Select Villa--</option>
                 </select>
-                <span asp-validation-for="villaID" class="text-danger"></span>
+                <span asp-validation-for="VillaNumber.villaNo" class="text-danger"></span>
             </div>
             <div class="col-2">
-                <label asp-for="VillaNumber.SpecialDetails" class="control-label pt-2" style="font-size:20px;"></label>
+                <label asp-for="VillaNumber.SpecialDetail" class="control-label pt-2" style="font-size:20px;"></label>
             </div>
             <div class="col-10 pb-3">
-                <textarea asp-for="VillaNumber.SpecialDetails" class="form-control" rows="5"></textarea>
-                <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
+                <textarea asp-for="VillaNumber.SpecialDetail" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="VillaNumber.SpecialDetail" class="text-danger"></span>
             </div>
 
             <div class="col-5 offset-2">
-                <a asp-action="IndexVillaNumber" asp-controller="VillaNumber" class="btn-primary btn form-control ">Back to List</a>
+                <a asp-action="IndexVillaNumber" asp-controller="VillaNumber" class="btn-primary btn form-control" >Back to List</a>
             </div>
             <div class="col-5">
                 <input type="submit" value="Create" class="btn btn-success form-control" />
@@ -47,4 +47,4 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
-} *@
+} 
