@@ -10,6 +10,8 @@ namespace MagicVilla_API.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
         public DbSet<Villa> Villas { get; set; }
+        public DbSet<LocalUser> LocalUsers{ get; set; }
+
         public DbSet<VillaNumber> VillaNumbers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
