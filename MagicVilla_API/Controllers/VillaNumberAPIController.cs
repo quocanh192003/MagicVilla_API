@@ -80,19 +80,24 @@ namespace MagicVilla_API.Controllers
 
         public async Task<ActionResult<APIReponse>> CreateVillaNumber([FromBody] VillaNumberCreateDTO villaNumber){
             try{
-                if(villaNumber == null){
-                    _reponse.Status = HttpStatusCode.BadRequest;
-                    return BadRequest(_reponse);
-                }
-                if(await _dbvilla.getAsync(n => n.Id == villaNumber.villaID) ==null){
-                    ModelState.AddModelError("CustomError", "Villa Id Invalid");
+				if (await _dbVillaNumber.getAsync(n => n.VillaNo == villaNumber.villaNo) != null)
+                {
+					ModelState.AddModelError("ErrorMessages", "Villa Number already Exists");
+                    return BadRequest(ModelState);
+				}
+                if (await _dbvilla.getAsync(n => n.Id == villaNumber.villaID) == null)
+                {
+                    ModelState.AddModelError("ErrorMessages", "Villa Id is Invalid");
                     return BadRequest(ModelState);
                 }
-                if(await _dbVillaNumber.getAsync(n => n.VillaNo == villaNumber.villaNo) != null){
-                    ModelState.AddModelError("CustomError", "Villa Number already Exists");
-                    return BadRequest(ModelState);
+                if (villaNumber == null)
+                {
+                    
+                    return BadRequest(villaNumber);
                 }
+
                 VillaNumber model = _mapper.Map<VillaNumber>(villaNumber);
+
                 await _dbVillaNumber.CreateAsync(model);
                 _reponse.Result = _mapper.Map<VillaNumberDTO>(model);
                 _reponse.Status = HttpStatusCode.Created;
@@ -143,16 +148,13 @@ namespace MagicVilla_API.Controllers
         {
             try
             {
-                if(id == 0){
+                if(villaUpdateNumber ==null || id != villaUpdateNumber.villaNo){
                     return BadRequest();
                 }
-                if(await _dbVillaNumber.getAsync(n => n.VillaNo == villaUpdateNumber.villaNo) != null){
-                    ModelState.AddModelError("CustomError", "Villa Number already Exists");
-                    return BadRequest(ModelState);
-                }
-                if(villaUpdateNumber == null || id != villaUpdateNumber.villaNo){
-                    return BadRequest();
-                }
+                
+                //if(villaUpdateNumber == null || id != villaUpdateNumber.villaNo){
+                //    return BadRequest();
+                //}
                 VillaNumber model = _mapper.Map<VillaNumber>(villaUpdateNumber);
 
                 await _dbVillaNumber.UpdateAsync(model);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eZ+XHNcoHWmwgmP8TqbPOXNC9O8zwxS91SCS+3RS88Y=",
+  "Hash": "GbnhS40y57AP0rbY792iq6PKwf6hBkYT2LFJasSo9jc=",
   "Source": "MagicVilla_Web",
   "BasePath": "_content/MagicVilla_Web",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\villa_slide.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\VILLA-VUNG-TAU-TICO-07-L15-VIEW-BIEN-SIEU-DEP-10.jpg",
+      "SourceId": "MagicVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\",
+      "BasePath": "_content/MagicVilla_Web",
+      "RelativePath": "images/VILLA-VUNG-TAU-TICO-07-L15-VIEW-BIEN-SIEU-DEP-10.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\VILLA-VUNG-TAU-TICO-07-L15-VIEW-BIEN-SIEU-DEP-10.jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\KHÓA HỌC ASP.NET CORE API\\MagicVilla\\MagicVilla_Web\\wwwroot\\js\\site.js",
