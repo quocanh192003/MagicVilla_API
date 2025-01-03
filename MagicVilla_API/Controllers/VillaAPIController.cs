@@ -53,7 +53,7 @@ namespace MagicVilla_API.Controllers
 
 
 
-        [Authorize]
+        [Authorize(Roles = "admin")]
         // GET: api/VillaAPI/5
         [HttpGet("{id:int}", Name = "GetVilla")]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]

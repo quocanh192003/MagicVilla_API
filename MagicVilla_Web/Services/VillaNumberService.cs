@@ -16,46 +16,51 @@ namespace MagicVilla_Web.Services
             Console.WriteLine($"Client Factory: {_clientFactory != null}");
             Console.WriteLine($"Villa URL: {villaUrl}");
         }
-        public Task<T> CreateAsync<T>(VillaNumberCreateDTO dto)
+        public Task<T> CreateAsync<T>(VillaNumberCreateDTO dto, string token)
         {
             return SendAsync<T>(new APIRequest(){
                 apiType = SD.ApiType.POST,
                 Url = villaUrl + "/api/VillaNumberAPI",
-                data = dto
+                data = dto,
+                Token = token
             });
         }
 
-        public Task<T> DeleteAsync<T>(int id)
+        public Task<T> DeleteAsync<T>(int id, string token)
         {
             return SendAsync<T>(new APIRequest(){
                 apiType = SD.ApiType.DELETE,
                 Url = villaUrl + "/api/VillaNumberAPI/" + id,
-                
+                Token = token
+
             });
         }
 
-        public Task<T> GetAllAsync<T>()
+        public Task<T> GetAllAsync<T>(string token)
         {
             return SendAsync<T>(new APIRequest(){
                 apiType = SD.ApiType.GET,
-                Url = villaUrl + "/api/VillaNumberAPI"
+                Url = villaUrl + "/api/VillaNumberAPI",
+                Token = token
             });
         }
 
-        public Task<T> GetAsync<T>(int id)
+        public Task<T> GetAsync<T>(int id, string token)
         {
             return SendAsync<T> (new APIRequest(){
                 apiType = SD.ApiType.GET,
-                Url = villaUrl + "/api/VillaNumberAPI/" + id
+                Url = villaUrl + "/api/VillaNumberAPI/" + id,
+                Token = token
             });
         }
 
-        public Task<T> UpdateAsync<T>(VillaNumberUpdateDTO dto)
+        public Task<T> UpdateAsync<T>(VillaNumberUpdateDTO dto, string token)
         {
             return SendAsync<T> (new APIRequest(){
                 apiType = SD.ApiType.PUT,
                 Url = villaUrl + "/api/VillaNumberAPI/" + dto.villaNo,
-                data = dto
+                data = dto,
+                Token = token
             });
         }
     }
